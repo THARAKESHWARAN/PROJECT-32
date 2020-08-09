@@ -138,7 +138,7 @@ function keyPressed() {
 }
 
 async function getBg() {
-   var  IST = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata")
+   var  IST = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata")
    var json = await IST.json();
 
    var datetime = json.datetime;
